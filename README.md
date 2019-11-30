@@ -37,11 +37,11 @@ R_A: random split with data augmentation, R_NA: random split without data augmen
 ## Pakages
 
 This repository is organized as:
-- [AE_Datasets](https://github.com/ZhaoZhibin/DL-based-Intelligent-Diagnosis-Benchmark/AE_Datasets) contains the loader of different datasets for AE models.
-- [CNN_Datasets](https://github.com/ZhaoZhibin/DL-based-Intelligent-Diagnosis-Benchmark/CNN_Datasets) contains the loader of different datasets for MLP, CNN, and RNN models.
-- [datasets](https://github.com/ZhaoZhibin/DL-based-Intelligent-Diagnosis-Benchmark/datasets) contains the data augmentation methods and the Pytorch datasets for 1D and 2D signals.
-- [models](https://github.com/ZhaoZhibin/DL-based-Intelligent-Diagnosis-Benchmark/models) contains the models used in this project.
-- [utils](https://github.com/ZhaoZhibin/DL-based-Intelligent-Diagnosis-Benchmark/utils) contains the functions for realization of the training procedure.
+- [AE_Datasets](https://github.com/ZhaoZhibin/DL-based-Intelligent-Diagnosis-Benchmark/master/AE_Datasets) contains the loader of different datasets for AE models.
+- [CNN_Datasets](https://github.com/ZhaoZhibin/DL-based-Intelligent-Diagnosis-Benchmark/master/CNN_Datasets) contains the loader of different datasets for MLP, CNN, and RNN models.
+- [datasets](https://github.com/ZhaoZhibin/DL-based-Intelligent-Diagnosis-Benchmark/master/datasets) contains the data augmentation methods and the Pytorch datasets for 1D and 2D signals.
+- [models](https://github.com/ZhaoZhibin/DL-based-Intelligent-Diagnosis-Benchmark/master/models) contains the models used in this project.
+- [utils](https://github.com/ZhaoZhibin/DL-based-Intelligent-Diagnosis-Benchmark/master/utils) contains the functions for realization of the training procedure.
 
 
 ## Usage
