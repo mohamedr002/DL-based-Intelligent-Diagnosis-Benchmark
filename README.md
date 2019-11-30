@@ -6,6 +6,8 @@ Code release for **[Deep Learning Algorithms for Rotating Machinery Intelligent 
 ## Guide
 This project just provides the baseline (lower bound) accuracies and a unified intelligent fault diagnosis library which retains an extended interface for everyone to load their own datasets and models by themselves to carry out new studies. Meanwhile, all the experiments are executed under Window 10 and Pytorch 1.1 through running on a computer with an Intel Core i7-9700K, GeForce RTX 2080Ti, and 16G RAM.
 
+(R_A: random split with data augmentation, R_NA: random split without data augmentation, O_A: order split with data augmentation)
+
 ## Requirements
 - Python 3.7
 - Numpy 1.16.2
@@ -19,7 +21,6 @@ This project just provides the baseline (lower bound) accuracies and a unified i
 - pytorch >= 1.1
 - torchvision >= 0.40
 
-`pip install -r requirements.txt`
 
 ## Datasets
 - **[CWRU Bearing Dataset](https://csegroups.case.edu/bearingdatacenter/pages/download-data-file/)**
@@ -36,11 +37,11 @@ This project just provides the baseline (lower bound) accuracies and a unified i
 ## Pakages
 
 This repository is organized as:
-- [AE_Datasets](https://github.com/ZhaoZhibin/DL-based-Intelligent-Diagnosis-Benchmark) contains the loader of different datasets for AE models.
-- [CNN_Datasets](https://github.com/ZhaoZhibin/DL-based-Intelligent-Diagnosis-Benchmark) contains the loader of different datasets for MLP, CNN, and RNN models.
-- [datasets](https://github.com/ZhaoZhibin/DL-based-Intelligent-Diagnosis-Benchmark) contains the data augmentation methods and the Pytorch datasets for 1D and 2D signals.
-- [models](https://github.com/ZhaoZhibin/DL-based-Intelligent-Diagnosis-Benchmark) contains the models used in this project.
-- [utils](https://github.com/ZhaoZhibin/DL-based-Intelligent-Diagnosis-Benchmark) contains the functions for realization of the training procedure.
+- [AE_Datasets](https://github.com/ZhaoZhibin/DL-based-Intelligent-Diagnosis-Benchmark/AE_Datasets) contains the loader of different datasets for AE models.
+- [CNN_Datasets](https://github.com/ZhaoZhibin/DL-based-Intelligent-Diagnosis-Benchmark/CNN_Datasets) contains the loader of different datasets for MLP, CNN, and RNN models.
+- [datasets](https://github.com/ZhaoZhibin/DL-based-Intelligent-Diagnosis-Benchmark/datasets) contains the data augmentation methods and the Pytorch datasets for 1D and 2D signals.
+- [models](https://github.com/ZhaoZhibin/DL-based-Intelligent-Diagnosis-Benchmark/models) contains the models used in this project.
+- [utils](https://github.com/ZhaoZhibin/DL-based-Intelligent-Diagnosis-Benchmark/utils) contains the functions for realization of the training procedure.
 
 
 ## Usage
