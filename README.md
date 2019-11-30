@@ -6,7 +6,7 @@ Code release for **[Deep Learning Algorithms for Rotating Machinery Intelligent 
 ## Guide
 This project just provides the baseline (lower bound) accuracies and a unified intelligent fault diagnosis library which retains an extended interface for everyone to load their own datasets and models by themselves to carry out new studies. Meanwhile, all the experiments are executed under Window 10 and Pytorch 1.1 through running on a computer with an Intel Core i7-9700K, GeForce RTX 2080Ti, and 16G RAM.
 
-(R_A: random split with data augmentation, R_NA: random split without data augmentation, O_A: order split with data augmentation)
+R_A: random split with data augmentation, R_NA: random split without data augmentation, O_A: order split with data augmentation
 
 ## Requirements
 - Python 3.7
